@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+       #main {
+        display: flex;
+        flex-direction: column; /* Align items vertically */
+        align-items: center; /* Center items horizontally */
+        justify-content: center; /* Center items vertically */
+        margin-top: 200px;/* Full viewport height */
+        gap: 20px; /* Adds a 20px gap between the image and button */
+    }
+
+    img {
+        height: 300px;
+        width: 500px;
+        border-radius: 30px;
+        /* Text align and justify content are unnecessary for images */
+    }
+
+    #btn {
+        height: 100px;
+        width: 200px;
+        border-radius: 30px;
+        font-size: 20px;
+        /* Remove margin-left, margin-top for better centering */
+    }
+    </style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="main">
+        <button id="btn">button</button>
+        <img src="sam1.jpg" id="img">
+    </div>
+    <script>
+        $('#btn').click(function(){
+            $('#img').fadeToggle();
+        })
+    </script>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
